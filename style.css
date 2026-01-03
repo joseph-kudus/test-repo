@@ -1,0 +1,142 @@
+/* Base styles */
+.page {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  text-align: center;
+  /* Add padding: 100px 40px */
+  padding: 100px 40px;
+}
+
+.hero h1 {
+    color: white;
+    margin: 0 0 20px;
+    /* Add font-size: 56px */
+    font-size: 56px;
+  }
+
+  .hero-subtitle {
+    color: #94a3b8;
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn {
+    padding: 16px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: transform 0.2s;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+  
+  .btn-primary {
+    background: #3b82f6;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid #475569;
+  }
+  
+  /* Features Section */
+  .features-section {
+    padding: 80px 40px;
+    background: #f8fafc;
+  }
+  
+  .features-title {
+    text-align: center;
+    font-size: 32px;
+    color: #1e293b;
+    margin-bottom: 50px;
+  }
+  
+  .features {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Add display: grid */
+    display: grid;
+    /* Add grid-template-columns: repeat(3, 1fr) */
+   grid-template-columns:  repeat(3, 1fr);
+    /* Add gap: 30px */
+    gap: 30px;
+  }
+
+  .feature-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    color: #1e293b;
+    margin: 0 0 15px;
+    font-size: 22px;
+  }
+  
+  .feature p {
+    color: #64748b;
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #1e293b;
+    padding: 40px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* This will be changed to column on mobile */
+  }
+  
+  .footer-logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-brand p {
+    color: #64748b;
+    margin: 10px 0 0;
+    font-size: 14px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .footer-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-links a:hover {
+    color: white;
+  }
+  
+  /* Tablet breakpoint - 768px */
